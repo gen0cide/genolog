@@ -1,12 +1,11 @@
 package genolog
 
-
 import (
-"io"
+	"io"
 
-"github.com/fatih/color"
-"github.com/sirupsen/logrus"
-"go.uber.org/zap"
+	"github.com/fatih/color"
+	"github.com/sirupsen/logrus"
+	"go.uber.org/zap"
 )
 
 // Logger is an interface that allows for generic logging capabilities to be defined
@@ -144,4 +143,3 @@ var (
 	// NoColor defines a color printer
 	NoColor = color.New(color.Reset).SprintfFunc()
 )
-

@@ -330,4 +330,3 @@ func (j *jsonLogger) SetLogLevel(level string) {
 		j.internal.SetLevel(logrus.FatalLevel)
 	}
 }
-
